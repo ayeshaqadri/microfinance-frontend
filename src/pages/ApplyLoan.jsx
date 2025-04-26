@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import axios from 'axios';
-
+import axiosInstance from '../path/to/axiosInstance';
 const ApplyLoan = () => {
   const [loanAmount, setLoanAmount] = useState('');
   const [loanPeriod, setLoanPeriod] = useState('');
